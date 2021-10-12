@@ -1,0 +1,250 @@
+body {
+    margin: 0;
+}
+
+.background {
+    width: 100%;
+    height: 550px;
+    background-color: #c2d3de;
+    color: white;
+    padding: 20px;
+    justify-content: center;
+    background: linear-gradient(to top, #4E61C0,#4A8CD6);
+}
+
+.iphonepic {
+    width: 400px;
+    position: relative;
+    margin-top: -124.5px;
+    margin-right: 100px;
+    float: right;
+}
+
+.background_container {
+    max-width: 1200px;
+    margin: auto;
+    color: white;
+    position: relative;
+    margin-top: 100px;
+}
+
+@media screen and (max-width : 992px) {
+    .iphonepic {
+        width: 260px;
+        display: block;
+        float: none;
+        margin: auto;
+        margin-top: 78px;
+    }
+
+    .background_container {
+        float: none;
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    .blue_background_icons {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .blue_background_icons div {
+        width: 100%;
+    }
+
+
+}
+
+
+.background_p {
+    font-size: 15px;
+}
+
+.background_btn {
+    padding: 10px;
+    color: white;
+    background-color: #444445;
+    border-radius: 10%;
+    border: 2px solid #444445;
+}
+
+.background_btn:hover {
+    background-color: darkgray;
+}
+
+.background_btn:focus {
+    background-color: darkslateblue;
+}
+
+.background_btn:active {
+    background-color:mediumvioletred;
+}
+
+
+
+.white_background {
+    clear: both;
+    background-color: white;
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.white_background_div {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+}
+
+.white_background_btn {
+    padding: 10px;
+    color: white;
+    background-color: #444445;
+    border-radius: 10%;
+    position: relative;
+    top: 20px;
+}
+
+.white_background_btn:hover {
+    background-color: darkgray;
+}
+
+.white_background_btn:focus {
+    background-color: darkslateblue;
+}
+
+.white_background_btn:active {
+    background-color:mediumvioletred;
+}
+
+
+.blue_background {
+    clear: both;
+    background-color: #4E61C0;
+    height: 1000px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}  
+
+.blue_background_div {
+    float: left;
+    justify-content: center;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+.blue_background_icons {
+    clear: both;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.icon_div {
+    position:relative;
+    margin: 50px;
+    text-align: center;
+    /* margin-top: 100px; */
+}
+
+.blue_background p, .blue_background h2 {
+    color: white;
+}
+
+.blue_background_div_h2 {
+    position:relative;
+    bottom: 30px;
+}
+
+.blue_background_icons i {
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    padding-top: 25px;
+    padding-left: 3px;
+    box-sizing: border-box;
+    color: #4E61C0;
+}
+
+.last_background {
+    background-color: white;
+    width: 100%;
+    height: 1400px;
+}
+
+.blue_background {
+    clear: both;
+    background-color: #4E61C0;
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}  
+
+.last_background_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.last_background_img, .last_background_img2 {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.last_background img {
+    width: 650px;
+    margin: 0;
+    float: left;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+
+.photo_h2 {
+    position: absolute;
+    color: white;
+}
+
+.photo_h2_1, .photo_h2_3 {
+    bottom: 250px;
+    left: 220px;
+}
+
+.photo_h2_2, .photo_h2_4 {
+    bottom: 250px;
+    right: 280px;
+}
+
+.last_background_icons {
+    clear: both;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.last_background_icons i {
+    background-color: #4E61C0;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    padding-top: 26px;
+    padding-left: 28px;
+    box-sizing: border-box;
+    color: white;
+    margin: 50px;
+}
